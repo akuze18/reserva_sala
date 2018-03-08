@@ -1,0 +1,167 @@
+.footer {
+    background-color: #9a0000;
+    text-align: center;
+    margin-top: 1em;
+    color: #fff;
+    width: 100%;
+    border: 6px solid #9a0000;
+}
+
+.navigation {
+  border-bottom: 2px solid #DADADF;
+  box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* para sub-menu */
+.dropdown-submenu {
+ position: relative
+  }
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+ display: block 
+}
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu.pull-left { 
+  float: none 
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* Puto iframe correo ql */
+.pagina-responsive {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 90%;
+overflow: hidden;
+}
+
+.pagina-responsive iframe,
+.pagina-responsive object,
+.pagina-responsive embed {
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 900%;
+}
+
+/* ===========================
+--- Contact
+============================ */
+
+.form-wrapper {
+  background: #f9f9f9;
+  padding: 40px;
+   border-radius: 6px;
+}
+
+
+form#contact-form .form-group label {
+  text-align: left !important;
+  display: block;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+form#contact-form input,form#contact-form select,form#contact-form textarea {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: none;
+          box-shadow:  none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background: #fefefe;
+  color: #888;
+}
+
+form#contact-form input,form#contact-form select {
+  height: 40px;
+}
+
+form#contact-form button {
+  border-radius: 4px;
+  height: 40px;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  background: #fff;
+}
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+  display:block;
+}
+
+.logalumno  {
+  background:url('img/ai-alumnos.png') no-repeat 20px 10px;}
+.logdocente  {
+  
+}
+.logadmin  {
+  
+}
+
+.derecha{
+    float:right;
+    margin-left: 2px;
+}
+

@@ -1,0 +1,44 @@
+.div-center{
+    padding: 2em 1em;
+    margin: 1em 25%;
+}
+.test{
+    border: 6px solid red;
+}
+
+.derecha{
+    float:right;
+    margin-left: 2px;
+}
+
+.parent-center{
+    display: flex;
+}
+.content-center{
+    margin: auto;
+}
+
+.skeched{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.table-center{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bg-nav-red{
+    background-color: #9a0000;
+}
+
+.dimension{
+    min-height: 65vh;
+}
+
+.btn-disabled{
+    color : #ffffff;
+    background-color: #ffffff;
+}
